@@ -14,9 +14,13 @@ We exclude from this list proofreading, spelling checks, and all minor updates.
 
 ## November 2018
 
-| Description                                                                                                                                                                                                                                                                                                                                                                                                                           | Versions applied to | New or Updated    | Date        |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|-------------------|-------------|
-| Added [Reporting in the MFTF](https://devdocs.magento.com/mftf/2.3/reporting.html)                                                                                                                                                                                                                                                                                                                                                    | 2.3.x               | New topic         | November  2 |
+| Description                                                                                                                                                                                                     | Versions applied to | New or Updated    | Date        |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|-------------------|-------------|
+| Added a topic about [Credentials in the MFTF](https://devdocs.magento.com/mftf/2.3/credentials.html).                                                                                                           | 2.3.x               | New topic         | November  9 |
+| Added the topic [Start message queue consumers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-queue.html).                                                                     | 2.3.x               | New topic         | November  8 |
+| Updated [migration troubleshooting](https://devdocs.magento.com/guides/v2.2/migration/migration-troubleshooting.html) guide with corrected info about the error that occurs when the Deltalog is not installed: | 2.2.x, 2.3.x        | Technical changes | November  6 |
+| Added a new [product attribute reference section](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/attributes.html#add-product-eav-attribute-options-reference).                                     | 2.x                 | Major update      | November  6 |
+| Added [Reporting in the MFTF](https://devdocs.magento.com/mftf/2.3/reporting.html).                                                                                                                             | 2.3.x               | New topic         | November  2 |
 
 ## October 2018
 
@@ -97,7 +101,7 @@ Added topics on [Asynchronous web endpoints](https://devdocs.magento.com/guides/
 Update [nginx](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/nginx.html) PHP versions and Composer installation steps|2.2.x, 2.3.x|Major update|Aug 13
 Added Events to [WYSIWYG component](https://devdocs.magento.com/guides/v2.3/ui_comp_guide/components/ui-wysiwyg.html).<br/> Updated list of methods in [Add Custom Editor](https://devdocs.magento.com/guides/v2.3/ui_comp_guide/components/wysiwyg/add-custom-editor/index.html#step-3-create-editor-adapter).|2.3.x|Major update|Aug 09
 Added CLI enable/disable commands for profiler in [Enable profiling (MAGE_PROFILER)](https://devdocs.magento.com/guides/v2.2/config-guide/bootstrap/mage-profiler.html) for 2.2 and 2.3|2.2.x, 2.3.x|Major update|Aug 08
-Added the [Order Processing for MSI tutorial](https://devdocs.magento.com/guides/v2.3/rest/tutorials/msi-order-processing/index.html)|2.3.x|New topic|Aug 08
+Added the [Order Processing for MSI tutorial](https://devdocs.magento.com/guides/v2.3/rest/tutorials/inventory/index.html)|2.3.x|New topic|Aug 08
 Corrected the path of the `PUT /V1/companyCredits/:id` [endpoint](https://devdocs.magento.com/guides/v2.2/b2b/credit-manage.html#update-a-company-credit-limit).|2.2.x, 2.3.x|Technical changes|Aug 06
 Updated the Inbound and Outbound [Integration environment IP address tables](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-start.html#ipaddress).|2.x|Technical changes|Aug 06
 Added the topic [Custom routes](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/webapi/custom-routes.html).|2.3.x|New topic|Aug 03
